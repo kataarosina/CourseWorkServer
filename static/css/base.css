@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+header {
+    font-size: 0;
+    background: #eeeeee;
+}
+
+.header-content {
+    position: fixed;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header-content__logo-place {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+.header-content__button {
+    height: 48px;
+    background: #ffffff;
+    width: 100%;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: #eeeeee;
+    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-left-width: 1px;
+}
+
+.header-content__button:hover {
+    background: #111111;
+    border-color: #000000;
+}
+
+.header-content__logo-text_b {
+    font-size: 35px;
+    font-family: "Candara";
+    color: #888888;
+}
+
+.header-content__logo-text_i {
+    font-size: 25px;
+    font-family: "Candara Light";
+    color: #777777;
+}
+
+.body-content {
+    background: linear-gradient(to bottom, #eeeeee, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    font-size: 0;
+}
+
+.body__scroll-up-button {
+    display: none;
+    position: fixed;
+    background-color: rgba(210, 210, 210, 0.7);
+    height: 30px;
+    padding-bottom: 470px;
+    width: 10%;
+    color: #333333;
+    font-size: 25px;
+    font-family: "Candara Light";
+}
+
+.body__scroll-up-button:hover {
+    background-color: rgba(100, 100, 100, 0.7);
+}
+
+.body-content__main {
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media (max-width: 1710px) {
+    .header-content {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .body-content__main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .header-content {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .body__scroll-up-button {
+        display: none;
+    }
+
+    .body-content__main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-content__logo-text_b {
+        font-size: 15px;
+    }
+
+    .header-content__logo-text_i {
+        font-size: 11px;
+    }
+
+    .body-content__main {
+        margin: 0;
+    }
+}

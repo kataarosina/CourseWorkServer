@@ -1,0 +1,9 @@
+Теперь поговорим об интерфейсах, они являются важной частью ООП.
+<br>В некотором роде интерфейс является контрактом, в котором прописано примерно следующее: "Если к классу применяется интерфейс, то класс обязан реализовать все методы, указанные в интерфейсе".
+<br>Теперь поговорим о том, что можно делать с интерфейсами и как их объявлять. Объявим простой интерфейс:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_6_0.jpeg" style="width: 50%"></div>
+<br>Как видно, интерфейс обязал класс к реализации метода run(). 
+<br>Далее, интерфейсы можно наследовать:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_6_1.jpeg" style="width: 50%"></div>
+<br>К тому же, можно применять несколько интерфейсов к классу:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_6_2.jpeg" style="width: 50%"></div>

@@ -1,0 +1,7 @@
+В прошлых статьях мы рассмотрели то, как создать классы. Однако до сих пор осталась нетронутой тема создания объектов. В самом деле: а как их создавать в программе?
+<br>Для начала стоит подумать: каким образом должна происходить инициализация объекта со всеми его свойствами? Для этих целей существуют конструкторы, в которых и происходит создание объекта и инициализация всех его полей. Пример кода конструктора:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_4_0.jpeg" style="width: 50%"></div>
+<br>Разумеется, для удаления неиспользуемых объектов в памяти тоже должен быть определен метод:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_4_1.jpeg" style="width: 50%"></div>
+<br>Теперь перейдем к синтаксису создания объекта определенного класса. Он достаточно прост:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_4_2.jpeg" style="width: 50%"></div>

@@ -1,0 +1,21 @@
+.body-content__text {
+    font-size: 25px;
+    font-family: "Candara Light";
+    background: #aaaaaa;
+    text-align: match-parent;
+    margin: 0;
+    padding: 0;
+    border-style: hidden;
+}
+
+.body-content__text_end {
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 25px;
+    font-family: "Candara Light";
+    background: #aaaaaa;
+    text-align: match-parent;
+    margin: 0;
+    padding: 0;
+    border-style: hidden;
+}

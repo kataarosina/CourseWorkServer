@@ -1,0 +1,10 @@
+Теперь, когда у Вас есть знания об ООП, необходимо понять: а как же реализовано ООП в PHP?
+<br>В целом, все очень просто, класс в PHP можно определить следующим образом:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_2_0.jpeg" style="width: 50%"></div>
+<br>К тому же у класса обязательно должны быть атрибуты и методы, которые определяются следующим образом:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_2_1.jpeg" style="width: 50%"></div>
+<br>Но пока непонятно, при чем здесь вообще три свойства, которые были упомянуты в прошлой статье? Наследование и полиморфизм разберем тут, а инкапсуляцию - в дальнейших статьях.
+<br>Итак, что касается полиморфизма - в какой-то степени он заложен благодаря слабой типизации языка PHP, однако под полиморфизмом может пониматься и переопределение функций в наследуемых классах.
+<br>Наследование происходит следующим образом:
+<br><div style="text-align: center; margin-top: 5px; margin-bottom: 5px"><img src="../../static/articlesStorage/images/article_2_2.jpeg" style="width: 50%"></div>
+<br>И в наследованном от Animal классе Lion мы переопределили метод sound() - это и есть пример полиморфизма.

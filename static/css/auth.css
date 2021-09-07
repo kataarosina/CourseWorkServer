@@ -1,0 +1,87 @@
+#login {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    background: #cccccc;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+#login_text {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+#password {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+#login_submit {
+    margin-top: 15px;
+    width: 50%;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 6px;
+}
+
+#login_submit:hover {
+    background: #666666;
+    color: #ffffff;
+}
+
+#logout {
+    margin-top: 15px;
+    width: 50%;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 6px;
+}
+
+#logout:hover {
+    background: #666666;
+    color: #ffffff;
+}
+
+#tr_reg {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Candara Light";
+}
+
+#welcome_text {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Candara Light";
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+.alert-text {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Arial Black";
+    color: darkred;
+}
+
+@media (max-width: 1300px) {
+    #login {
+        width: 60%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    #tr_reg {
+        font-size: 17px;
+    }
+}

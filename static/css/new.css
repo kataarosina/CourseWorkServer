@@ -1,0 +1,90 @@
+#new_article {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background: linear-gradient(45deg, #bbbbbb, #eeeeee, #eeeeee, #eeeeee, #bbbbbb);
+    text-align: center;
+    border-style: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#header_text {
+    margin-bottom: 5px;
+    width: 60%;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+#description_text {
+    margin-bottom: 5px;
+    width: 60%;
+    height: 150px;
+    border-style: hidden;
+    border-radius: 10px;
+    resize: none;
+}
+
+.text-block {
+    margin-bottom: 5px;
+    width: 60%;
+    height: 200px;
+    border-style: hidden;
+    border-radius: 10px;
+    resize: none;
+}
+
+#add_submit {
+    width: 45%;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 10px;
+    background: #aaaaaa;
+}
+
+#add_submit:hover {
+    background: #111111;
+    color: #cccccc;
+}
+
+.img-loader {
+    font-size: 25px;
+    font-family: "Candara Light";
+    color: #666666;
+}
+
+.img-loaded {
+    font-size: 25px;
+    font-family: "Candara Light";
+    color: #00aa00;
+}
+
+.img-loader:hover {
+    color: #000000;
+}
+
+.button__adding-img {
+    margin-top: 10px;
+    margin-left: 35%;
+    background: black;
+    color: #eeeeee;
+    font-size: 20px;
+    font-family: "Candara Light";
+}
+
+.button__adding-paragraph:hover {
+    background: #eeeeee;
+    color: black;
+}
+
+@media (max-width: 1300px) {
+    #new_article {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+    }
+}

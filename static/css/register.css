@@ -1,0 +1,57 @@
+#register {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    background: #cccccc;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+#reg_text {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Candara Light";
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+input[type='text'] {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+input[type='password'] {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-style: hidden;
+    border-radius: 7px;
+}
+
+input[type='submit'] {
+    margin-top: 15px;
+    width: 50%;
+    height: 20px;
+    border-style: hidden;
+    border-radius: 6px;
+}
+
+input[type='submit']:hover {
+    background: #666666;
+    color: #ffffff;
+}
+
+@media (max-width: 1300px) {
+    #register {
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
